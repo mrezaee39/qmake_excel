@@ -2,7 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-
+#include <xlsxdocument.h>
+#include <QFile>
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -19,5 +20,9 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    QXlsx::Document *excel_file_input;
+    QXlsx::Document *excel_file_output;
+    QFile csv_input;
+    QFile csv_output;
 };
 #endif // MAINWINDOW_H
