@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Input.csv</file>
+        <file>OutPut.csv</file>
+    </qresource>
+</RCC>

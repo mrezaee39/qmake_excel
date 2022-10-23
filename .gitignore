@@ -1,0 +1,6 @@
+*.o
+Qmake_excel
+Makefile
+*.user
+.qmake.stash
+moc*
